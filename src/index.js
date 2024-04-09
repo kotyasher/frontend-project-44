@@ -21,6 +21,6 @@ const getGameLaunch = (getRandomNumber, task) => {
   console.log(`Congratulations, ${userName}!`);
 };
 
-const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1) - min);
+const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
 
 export { getGameLaunch, getRandomNumber };
