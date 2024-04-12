@@ -26,7 +26,23 @@ brain-prime
 ```
 ## Asciinema brain-even:
 
-[![Обложка к видео «Дока — как добавить пулреквест со статьёй»]([https://i3.ytimg.com/vi/y-_nXfKkI3w/hqdefault.jpg)](https://www.youtube.com/watch?v=y-_nXfKkI3w](https://asciinema.org/a/OYEJNy4fhtlRU9VGdJtRdbxS3))
+[![asciicast](https://asciinema.org/a/OYEJNy4fhtlRU9VGdJtRdbxS3.svg)](https://asciinema.org/a/OYEJNy4fhtlRU9VGdJtRdbxS3)
+
+## Asciinema brain-calc:
+
+![asciicast](https://asciinema.org/a/UM83vSAMWaVCX7XDUdDggE98C.svg)](https://asciinema.org/a/UM83vSAMWaVCX7XDUdDggE98C)
+
+## Asciinema brain-gcd:
+
+[![asciicast](https://asciinema.org/a/C6kkn4kQDTfjAXCy1EWgNHr4I.svg)](https://asciinema.org/a/C6kkn4kQDTfjAXCy1EWgNHr4I)
+
+# Asciinema brain-progression:
+
+[![asciicast](https://asciinema.org/a/f1868BnAManx2IisN67nixQxw.svg)](https://asciinema.org/a/f1868BnAManx2IisN67nixQxw)
+
+## Asciinema brain-prime:
+
+[![asciicast](https://asciinema.org/a/HEzMPIyNoxveT3sooq9p0eqzB.svg)](https://asciinema.org/a/HEzMPIyNoxveT3sooq9p0eqzB)
 
 
 
