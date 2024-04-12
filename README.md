@@ -30,13 +30,13 @@ brain-prime
 
 ## Asciinema brain-calc:
 
-![asciicast](https://asciinema.org/a/UM83vSAMWaVCX7XDUdDggE98C.svg)](https://asciinema.org/a/UM83vSAMWaVCX7XDUdDggE98C)
+[![asciicast](https://asciinema.org/a/UM83vSAMWaVCX7XDUdDggE98C.svg)](https://asciinema.org/a/UM83vSAMWaVCX7XDUdDggE98C)
 
 ## Asciinema brain-gcd:
 
 [![asciicast](https://asciinema.org/a/C6kkn4kQDTfjAXCy1EWgNHr4I.svg)](https://asciinema.org/a/C6kkn4kQDTfjAXCy1EWgNHr4I)
 
-# Asciinema brain-progression:
+## Asciinema brain-progression:
 
 [![asciicast](https://asciinema.org/a/f1868BnAManx2IisN67nixQxw.svg)](https://asciinema.org/a/f1868BnAManx2IisN67nixQxw)
 
