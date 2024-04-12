@@ -25,7 +25,7 @@ const playCalculator = () => {
   const question = `${firstNumRandom} ${randomOperator} ${secondNumRandom}`;
   const correctAnswer = String(calculate(randomOperator, firstNumRandom, secondNumRandom));
 
-  return [question, correctAnswer];
+  return { question, correctAnswer };
 };
 
 const startCaulculator = () => {

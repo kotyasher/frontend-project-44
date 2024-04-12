@@ -14,13 +14,13 @@ const getGCD = (numOne, numTwo) => {
 
 const playGCD = () => {
   const minNum = 1;
-  const maxNum = 50;
+  const maxNum = 100;
   const firstNumRandom = getRandomNumber(minNum, maxNum);
   const secondNumRandom = getRandomNumber(minNum, maxNum);
   const question = `${firstNumRandom} ${secondNumRandom}`;
   const correctAnswer = String(getGCD(firstNumRandom, secondNumRandom));
 
-  return [question, correctAnswer];
+  return { question, correctAnswer };
 };
 
 const startGcdGame = () => {

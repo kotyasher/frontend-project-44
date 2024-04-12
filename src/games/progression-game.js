@@ -22,7 +22,7 @@ const playProgression = () => {
   const correctAnswer = String(numbers[correctAnswerIndex]);
   numbers[correctAnswerIndex] = '..';
   const question = numbers.join(' ');
-  return [question, correctAnswer];
+  return { question, correctAnswer };
 };
 
 const startBrainProgression = () => {
