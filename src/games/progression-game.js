@@ -11,13 +11,13 @@ const getProgression = (randomNum) => {
   return numbers;
 };
 
-const generateProgression = () => {
+const playProgression = () => {
   const minNum = 1;
   const maxNum = 10;
   const minRandomIndex = 1;
   const maxRandomImdex = 9;
-  const randomNum = getRandomNumber(minNum, maxNum);
-  const numbers = getProgression(randomNum);
+  const numRandom = getRandomNumber(minNum, maxNum);
+  const numbers = getProgression(numRandom);
   const correctAnswerIndex = getRandomNumber(minRandomIndex, maxRandomImdex);
   const correctAnswer = String(numbers[correctAnswerIndex]);
   numbers[correctAnswerIndex] = '..';
@@ -26,7 +26,7 @@ const generateProgression = () => {
 };
 
 const startBrainProgression = () => {
-  getGameLaunch(generateProgression, 'What number is missing in the progression?');
+  getGameLaunch(playProgression, 'What number is missing in the progression?');
 };
 
 export default startBrainProgression;

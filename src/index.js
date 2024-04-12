@@ -12,7 +12,7 @@ const getGameLaunch = (getRandomNumber, task) => {
     const userAnswer = readlineSync.question('Your answer: ');
     if (correctAnswer === userAnswer) {
       console.log('Correct!');
-    } else if (correctAnswer !== userAnswer) {
+    } else {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}`);
 
       return;

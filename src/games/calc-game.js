@@ -1,14 +1,14 @@
 import { getRandomNumber, getGameLaunch } from '../index.js';
 
-const calculate = (operator, num1, num2) => {
+const calculate = (operator, numOne, numTwo) => {
   const result = '';
   switch (operator) {
     case '+':
-      return num1 + num2;
+      return numOne + numTwo;
     case '-':
-      return num1 - num2;
+      return numOne - numTwo;
     case '*':
-      return num1 * num2;
+      return numOne * numTwo;
     default:
       break;
   }

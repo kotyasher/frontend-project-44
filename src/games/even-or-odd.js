@@ -1,27 +1,18 @@
-import readlineSync from 'readline-sync';
-import getUserName from '../greetings.js';
-import { getRandomNumber } from '../index.js';
+import { getGameLaunch, getRandomNumber } from '../index.js';
 
-const userName = getUserName();
 const isEven = (number) => number % 2 === 0;
-const maxStep = 3;
 
-const playEvenOrOdd = () => {
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
-  for (let i = 0; i < maxStep; i += 1) {
-    const randomNumber = getRandomNumber(0, 100);
-    const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
-    console.log(`Question: ${randomNumber}`);
-    const userAnswer = readlineSync.question('Your answer: ');
-    if (correctAnswer === userAnswer) {
-      console.log('Correct!');
-    } else if (correctAnswer !== userAnswer) {
-      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}`);
+const playEvenorOdd = () => {
+  const minNum = 1;
+  const maxNum = 10;
+  const numRandom = getRandomNumber(minNum, maxNum);
+  const correctAnswer = isEven(numRandom) ? 'yes' : 'no';
 
-      return;
-    }
-  }
-  console.log(`Congratulations, ${userName}!`);
+  return { question: `${numRandom}`, correctAnswer };
 };
 
-export default playEvenOrOdd;
+const startEvenGame = () => {
+  getGameLaunch(playEvenorOdd, 'Answer "yes" if the number is even, otherwise answer "no".');
+};
+
+export default startEvenGame;
