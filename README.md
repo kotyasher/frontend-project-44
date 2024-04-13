@@ -3,7 +3,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/50c8c5b0377383b1326e/maintainability)](https://codeclimate.com/github/kotyasher/frontend-project-44/maintainability)
 ## Installation:
 ```
-make intall
+make install
 ```
 
 ## Minimum requirements:
