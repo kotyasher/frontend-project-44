@@ -1,7 +1,7 @@
-import { getRandomNumber, getGameLaunch } from '../index.js';
+import getGameLaunch from '../index.js';
+import getRandomNumber from '../utils.js';
 
 const calculate = (operator, numOne, numTwo) => {
-  const result = '';
   switch (operator) {
     case '+':
       return numOne + numTwo;
@@ -10,9 +10,8 @@ const calculate = (operator, numOne, numTwo) => {
     case '*':
       return numOne * numTwo;
     default:
-      break;
+      throw new Error(`Unknown operator: '${operator}'!`);
   }
-  return result;
 };
 
 const playCalculator = () => {

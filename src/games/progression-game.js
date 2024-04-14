@@ -1,4 +1,5 @@
-import { getRandomNumber, getGameLaunch } from '../index.js';
+import getGameLaunch from '../index.js';
+import getRandomNumber from '../utils.js';
 
 const getProgression = (randomNum) => {
   const numbers = [];
