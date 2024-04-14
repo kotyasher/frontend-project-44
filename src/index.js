@@ -21,5 +21,4 @@ const getGameLaunch = (startGame, task) => {
   console.log(`Congratulations, ${userName}!`);
 };
 
-
 export default getGameLaunch;
